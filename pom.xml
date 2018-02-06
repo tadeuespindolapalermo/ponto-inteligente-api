@@ -41,10 +41,10 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- JPA, MySQL e H2 -->
+		<!-- JPA, MySQL, H2 e Flywaydb -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>			
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		
 		<dependency>
@@ -55,7 +55,23 @@
 		
 		<dependency>
 			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>			
+			<artifactId>h2</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+		</dependency>
+		
+		<!-- Spring Security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
 		</dependency>
 	</dependencies>	
 
