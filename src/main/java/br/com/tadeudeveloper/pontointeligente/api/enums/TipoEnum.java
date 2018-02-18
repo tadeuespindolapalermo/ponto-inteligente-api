@@ -5,7 +5,7 @@ package br.com.tadeudeveloper.pontointeligente.api.enums;
  */
 public enum TipoEnum {
 	INICIO_TRABALHO,
-	TERMINO_TRABALO,
+	TERMINO_TRABALHO,
 	INICIO_ALMOCO,
 	TERMINO_ALMOCO,
 	INICIO_PAUSA,
