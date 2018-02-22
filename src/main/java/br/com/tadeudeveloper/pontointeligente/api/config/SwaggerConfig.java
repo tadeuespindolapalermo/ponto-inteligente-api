@@ -19,6 +19,10 @@ import springfox.documentation.swagger.web.ApiKeyVehicle;
 import springfox.documentation.swagger.web.SecurityConfiguration;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+// URLs
+// http://localhost:8080/swagger-ui.html
+// http://localhost:8080/v2/api-docs
+
 @Configuration
 @Profile("dev")
 @EnableSwagger2
